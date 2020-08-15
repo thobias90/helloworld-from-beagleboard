@@ -7,5 +7,8 @@ def Get_Hello():
     return "<h1>Hello World, from beagleboard!</h1>",200
 
 
-app.run(host= '0.0.0.0')
+def main():
+    app.run(host='0.0.0.0')
 
+if __name__ == '__main__':
+    main()
